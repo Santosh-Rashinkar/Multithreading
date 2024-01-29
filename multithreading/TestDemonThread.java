@@ -13,6 +13,7 @@ public class TestDemonThread {
 //		MyThreadA mt1 = new MyThreadA();
 //		mt1.run();
 		
+		
 		t1.setDaemon(true);
 
 		t1.start();
@@ -20,7 +21,7 @@ public class TestDemonThread {
 		t3.start();
 		
 		
-		
 	}
+	
 
 }
